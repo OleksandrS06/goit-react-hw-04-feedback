@@ -23,6 +23,8 @@ const App = () => {
       case 'bad':
         setBad(state => state + 1);
         break;
+      default:
+        return;
     }
   };
 
